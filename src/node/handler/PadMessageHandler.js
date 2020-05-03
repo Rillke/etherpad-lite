@@ -1130,6 +1130,7 @@ async function handleClientReady(client, message)
       },
       "initialChangesets": [], // FIXME: REMOVE THIS SHIT
       "thisUserHasEditedThisPad": thisUserHasEditedThisPad,
+      "allowAnyoneToImport": settings.allowAnyoneToImport
     }
 
     // Add a username to the clientVars if one avaiable
